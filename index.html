@@ -22,6 +22,12 @@
             #table {
                 margin-top: 40px;
             }
+            #form {
+                margin-top: 40px;
+            }
+            #submit-button {
+                margin-top: 10px;
+            }
             .btn-primary {
                 margin-top: 40px;
             }
@@ -45,6 +51,9 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#table">Table</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#form">Form</a>
                   </li>
                 </ul>
               </div>
@@ -122,6 +131,16 @@
                         </tr>
                     </tbody>
                 </table>
+
+                <h2 id="form">猫フォーム</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="title">タイトル</label>
+                        <input type="text" class="form-control" name="title" id="title">
+                    </div>
+                    <button type="submit" id="submit-button">送信する</button>
+                </form>
+
                 <a class="btn btn-primary" href="https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3" target="_blank">夏目漱石について</a>
             </div>
         </div>
