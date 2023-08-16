@@ -19,6 +19,9 @@
             .col-md-4 {
                 padding-top: 40px;
             }
+            #table {
+                margin-top: 40px;
+            }
             .btn-primary {
                 margin-top: 40px;
             }
@@ -41,12 +44,13 @@
                     <a class="nav-link" href="#list">List</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="">Table</a>
+                    <a class="nav-link" href="#table">Table</a>
                   </li>
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
+
         <div class="container">
             <div class="starter-template">               
                 <div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary rounded">
@@ -57,7 +61,8 @@
                             <img src="cat.jpg" alt="猫" width="405px" height="250px">
                         </div>
                     </div>   
-                </div>             
+                </div>
+
                 <div class="row">
                     <div class="col-md-4">
                         <h2>どこで生れたか</h2>
@@ -72,12 +77,51 @@
                         <p>書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。</p>
                     </div>            
                 </div>
+
                 <h2 id="list">動物リスト</h2>
                 <ul class="list-group">
                     <li class="list-group-item">ねこ</li>
                     <li class="list-group-item">いぬ</li>
                     <li class="list-group-item">うさぎ</li>
                 </ul>
+
+                <h2 id="table">猫テーブル</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>名前</th>
+                            <th>特徴</th>
+                            <th>住所</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>タマ</td>
+                            <td>くつした</td>
+                            <td>東京都港区南青山</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>ミケ</td>
+                            <td>三毛</td>
+                            <td>東京都千代田区秋葉原</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>トラ</td>
+                            <td>シマ</td>
+                            <td>兵庫県西宮市甲子園町</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>にゃあ</td>
+                            <td>トラの弟</td>
+                            <td>兵庫県西宮市甲子園町</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <a class="btn btn-primary" href="https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3" target="_blank">夏目漱石について</a>
             </div>
         </div>
